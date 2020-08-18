@@ -1,0 +1,57 @@
+*   {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+p   {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: white;
+    margin: 0px;
+}
+
+h1  {
+    color: yellow;
+    font-family: 'Lato', sans-serif;
+    font-size: .85em;
+    margin: 0px;
+}
+
+h2  {
+    color: darkgrey;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding-top: 1em;
+}
+
+.logo   {
+    padding-bottom: .5m;
+}
+
+.nav-wrapper > .logo img   {
+    filter: invert();
+    width: 10vw;
+}
+
+.nav-wrapper    {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.nav-area   {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    width: 20em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-wrapper > .nav-area > .explore {
+    padding-left: 1.3em;
+}
